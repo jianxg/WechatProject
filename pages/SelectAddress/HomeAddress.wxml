@@ -1,0 +1,11 @@
+<!--pages/SelectAddress/HomeAddress.wxml-->
+<van-cell title="选择地址" is-link bind:click="showPopup" />
+<van-popup show="{{ show }}" closeable round position="top" custom-style="height: 70%;" bind:close="onClose">
+
+	<van-area
+		area-list="{{ areaList }}"
+		columns-num="{{ 3 }}"
+		columns-placeholder="{{ ['请选择', '请选择', '请选择'] }}"
+		title="地址"
+		bind:confirm="onConfirm"/>
+</van-popup>

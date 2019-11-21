@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/SelectAddress/HomeAddress"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "../vant-weapp/button",
+    "van-area": "../vant-weapp/area",
+    "van-popup": "../vant-weapp/popup",
+    "van-cell": "../vant-weapp/cell"
+  }
+}
